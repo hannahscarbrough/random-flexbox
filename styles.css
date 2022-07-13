@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+header {
+    background-color: gray;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* Gallery */
+
+.container {
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 15%;
+}
+
+.flexbox {
+    height: 500px;
+    width: 80vw;
+    display: flex;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    
+}
+
+.flexbox img {
+    object-fit: cover;
+    
+}
